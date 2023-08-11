@@ -1,5 +1,13 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;500;700&family=Poppins:wght@300;500;700&display=swap");
+
+
+#root{
   text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,h2,h3,button{
+  font-family: 'Kanit', sans-serif;
 }
 
 .App-logo {
@@ -28,11 +36,54 @@
   color: #61dafb;
 }
 
+#contentTable > tr:nth-child(even) {
+  background: rgb(233, 233, 233);
+}
+
+button{
+  cursor: pointer;
+  border: none;
+  padding: 6px 12px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.App>button{
+  margin-top: 50px;
+}
+
+/* CSS */
+.button-54 {
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
   }
 }

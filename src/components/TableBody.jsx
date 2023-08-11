@@ -5,8 +5,8 @@ export default function (props) {
 
     return (
         <>
-            <table style={{ width: "80%", marginLeft: "10%" }}>
-                <tbody>
+            <table style={{ width: "80%", marginLeft: "10%", marginTop: '40px' }} >
+                <tbody id="contentTable">
                     <tr>
                         <td>Produto</td>
                         <td>Unidades em estoque</td>

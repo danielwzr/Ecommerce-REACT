@@ -15,7 +15,8 @@ root.render(
   <Header headerTitle="Estoque" />
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="estoque" element={<ModalProduto />} />
+      <Route path="estoque" element={<App />} />
+      <Route path="addproduto" element={<ModalProduto />} />
     </Routes>
   </BrowserRouter>
 );
